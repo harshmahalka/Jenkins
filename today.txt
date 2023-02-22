@@ -1,0 +1,34 @@
+Create database BajajCompany;
+
+Use BajajCompany;
+
+Create Table Employee
+(
+EmpUniqueId int identity Primary Key,
+EmpNo varchar(20) Not Null,
+EmpName varchar(100) Not Null,
+Designation varchar(100) Not Null,
+Salary int Not NUll,
+DeptUniqueId int references Department(DeptUniqueId)
+)
+
+
+git config --global user.name "harshmahalka"
+git config --global user.email harshmahalka@gmail.com
+
+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
+git token
+
+4a422800c52a4c6cbdd087e7b6e29ba3
+password jenkins
+
+//dotnet ef migrations add securityMigration -c CORE_API.Models.BajajSecurityDBNewContext
+//dotnet ef database update -c CORE_API.Models.BajajSecurityDBNewContext
+
+
+
+// dotnet ef dbcontext scaffold "Data Source=.\SQLEXPRESS; initial Catalog=BajajCompany; Integrated Security = SSPI" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+//Link to download softwares-
+
+10.150.106.147/Software/Software%20Application/
